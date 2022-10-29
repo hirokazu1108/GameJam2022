@@ -522,7 +522,7 @@ MonoBehaviour:
     - singleStatement:
         targetState:
           target: 2
-          key: deleteTomato
+          key: callTomatoSpawn
           parameterType: 0
         expression:
           type: 1

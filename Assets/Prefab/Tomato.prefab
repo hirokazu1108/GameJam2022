@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 890991694632118874}
   - component: {fileID: 890991694632118870}
   - component: {fileID: 890991694632118875}
+  - component: {fileID: 8018349283608323188}
   m_Layer: 14
   m_Name: Tomato
   m_TagString: Untagged
@@ -74,8 +75,8 @@ Rigidbody:
   m_GameObject: {fileID: 510772171089293554}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 0.3
+  m_AngularDrag: 0.6
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -88,7 +89,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 510772171089293554}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 028c696b2400bee4ead7bd941ba32476, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 1.5
@@ -281,7 +282,7 @@ MonoBehaviour:
   item: {fileID: 890991694632118871}
   key:
     target: 0
-    key: destroy
+    key: destroyTomato
 --- !u!114 &890991694632118869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -460,7 +461,17 @@ MonoBehaviour:
   triggers:
   - target: 0
     specifiedTargetItem: {fileID: 0}
-    key: destroy
+    key: minusTomato
+    type: 0
+    value:
+      boolValue: 0
+      floatValue: 0
+      integerValue: 0
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+  - target: 0
+    specifiedTargetItem: {fileID: 0}
+    key: destroyTomato
     type: 0
     value:
       boolValue: 0
@@ -489,6 +500,82 @@ MonoBehaviour:
   itemTemplateId:
     value: 841471891770084317
   spawnPoint: {fileID: 890991694632118856}
+--- !u!114 &8018349283608323188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 510772171089293554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e67bdc2960f9462385a7fba1c0052836, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  globalGimmickKey:
+    key:
+      target: 0
+      key: minusTomato
+    item: {fileID: 890991694632118871}
+  logic:
+    statements:
+    - singleStatement:
+        targetState:
+          target: 2
+          key: deleteTomato
+          parameterType: 0
+        expression:
+          type: 1
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 0
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 7
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 3
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: tomatoNum
+                  type: 2
+              operatorExpression:
+                operator: 0
+                operands: []
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 3
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
 --- !u!1 &2567283257378303135
 GameObject:
   m_ObjectHideFlags: 0

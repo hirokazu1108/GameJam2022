@@ -123,6 +123,180 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &294970199
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 607600538080047030, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+        type: 3}
+      propertyPath: globalGimmickKey.key.target
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 607600538080047030, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.targetState.parameterType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 607600538080047030, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.expression.operatorExpression.operator
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 607600538080047030, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.expression.operatorExpression.operands.Array.data[0].value.constant.type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 607600538080047030, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.expression.operatorExpression.operands.Array.data[0].value.constant.boolValue
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277270587831972292, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277270587831972292, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277270587831972292, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277270587831972292, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277270587831972292, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277270587831972292, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277270587831972292, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277270587831972292, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277270587831972292, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277270587831972292, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277270587831972292, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277270587831972300, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+        type: 3}
+      propertyPath: m_Name
+      value: kabotya (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277270587831972302, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+        type: 3}
+      propertyPath: logic.statements.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277270587831972302, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+        type: 3}
+      propertyPath: logic.statements.Array.data[2].singleStatement.expression.type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277270587831972302, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+        type: 3}
+      propertyPath: logic.statements.Array.data[2].singleStatement.targetState.key
+      value: destroy
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277270587831972302, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+        type: 3}
+      propertyPath: logic.statements.Array.data[2].singleStatement.expression.value.constant.type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277270587831972302, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+        type: 3}
+      propertyPath: logic.statements.Array.data[2].singleStatement.expression.value.sourceState.type
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277270587831972302, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+        type: 3}
+      propertyPath: logic.statements.Array.data[2].singleStatement.expression.operatorExpression.operator
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277270587831972302, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+        type: 3}
+      propertyPath: logic.statements.Array.data[2].singleStatement.expression.operatorExpression.operands.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277270587831972302, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+        type: 3}
+      propertyPath: logic.statements.Array.data[2].singleStatement.expression.operatorExpression.operands.Array.data[0].value.type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277270587831972302, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+        type: 3}
+      propertyPath: logic.statements.Array.data[2].singleStatement.expression.operatorExpression.operands.Array.data[0].value.constant.type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277270587831972302, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+        type: 3}
+      propertyPath: logic.statements.Array.data[2].singleStatement.expression.operatorExpression.operands.Array.data[1].value.constant.type
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277270587831972302, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+        type: 3}
+      propertyPath: logic.statements.Array.data[2].singleStatement.expression.operatorExpression.operands.Array.data[0].value.sourceState.key
+      value: hp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277270587831972302, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+        type: 3}
+      propertyPath: logic.statements.Array.data[2].singleStatement.expression.operatorExpression.operands.Array.data[1].value.sourceState.key
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277270587831972302, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+        type: 3}
+      propertyPath: logic.statements.Array.data[2].singleStatement.expression.operatorExpression.operands.Array.data[0].value.sourceState.type
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277270587831972302, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+        type: 3}
+      propertyPath: logic.statements.Array.data[2].singleStatement.expression.operatorExpression.operands.Array.data[1].value.sourceState.type
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277270587831972302, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.expression.operatorExpression.operands.Array.data[1].value.constant.integerValue
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277270587831972302, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+        type: 3}
+      propertyPath: logic.statements.Array.data[1].singleStatement.expression.operatorExpression.operands.Array.data[1].value.constant.integerValue
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1c122ca72eb7aa642b6b2681a93d7b96, type: 3}
 --- !u!1 &338825103
 GameObject:
   m_ObjectHideFlags: 0
@@ -219,6 +393,76 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &475946394
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 475946397}
+  - component: {fileID: 475946396}
+  - component: {fileID: 475946395}
+  m_Layer: 0
+  m_Name: KabotyaSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &475946395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475946394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 475946396}
+  key:
+    target: 2
+    key: kabotyaSpawner1
+  itemTemplate: {fileID: 1472003751420676243, guid: f6825df9187afb64698f784afc13132f,
+    type: 3}
+  itemTemplateId:
+    value: 16603832880921954787
+  spawnPoint: {fileID: 475946397}
+--- !u!114 &475946396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475946394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id:
+    value: 2205757348204285004
+  itemName: 
+  size: {x: 0, y: 0, z: 0}
+--- !u!4 &475946397
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475946394}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 29.37, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &512051041
 GameObject:
@@ -866,7 +1110,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1207976569}
+  - component: {fileID: 1207976573}
   - component: {fileID: 1207976568}
+  - component: {fileID: 1207976572}
+  - component: {fileID: 1207976571}
+  - component: {fileID: 1207976570}
+  - component: {fileID: 1207976574}
   m_Layer: 0
   m_Name: KabotyaController
   m_TagString: Untagged
@@ -888,11 +1137,51 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalGimmickKey:
     key:
-      target: 2
-      key: 
-    item: {fileID: 0}
+      target: 0
+      key: InitKabotya
+    item: {fileID: 1207976572}
   logic:
-    statements: []
+    statements:
+    - singleStatement:
+        targetState:
+          target: 2
+          key: killKabotyaNum
+          parameterType: 3
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 3
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 0
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
 --- !u!4 &1207976569
 Transform:
   m_ObjectHideFlags: 0
@@ -908,6 +1197,476 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1207976570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207976567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e67bdc2960f9462385a7fba1c0052836, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  globalGimmickKey:
+    key:
+      target: 0
+      key: ChangeEnemyTo1
+    item: {fileID: 1207976572}
+  logic:
+    statements:
+    - singleStatement:
+        targetState:
+          target: 2
+          key: DestroyEnemy0
+          parameterType: 0
+        expression:
+          type: 1
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 0
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 7
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: GenelateEnemy1
+          parameterType: 0
+        expression:
+          type: 1
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 0
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 7
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: killKabotyaNum
+          parameterType: 3
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 3
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 7
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: killKabotyaNum
+          parameterType: 3
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 3
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 7
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+--- !u!114 &1207976571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207976567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e67bdc2960f9462385a7fba1c0052836, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  globalGimmickKey:
+    key:
+      target: 2
+      key: AddKabotyaNum
+    item: {fileID: 0}
+  logic:
+    statements:
+    - singleStatement:
+        targetState:
+          target: 2
+          key: killKabotyaNum
+          parameterType: 3
+        expression:
+          type: 1
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 0
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 2
+            operands:
+            - type: 0
+              value:
+                type: 1
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: killKabotyaNum
+                  type: 3
+              operatorExpression:
+                operator: 0
+                operands: []
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 3
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 1
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 3
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: ChangeEnemy1
+          parameterType: 0
+        expression:
+          type: 1
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 0
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 10
+            operands:
+            - type: 0
+              value:
+                type: 1
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: killKabotyaNum
+                  type: 3
+              operatorExpression:
+                operator: 0
+                operands: []
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 3
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 2
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 3
+              operatorExpression:
+                operator: 0
+                operands: []
+--- !u!114 &1207976572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207976567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id:
+    value: 0
+  itemName: 
+  size: {x: 0, y: 0, z: 0}
+--- !u!114 &1207976573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207976567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f90a8458122ef47c3b840e286a75994a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1207976572}
+  triggers:
+  - target: 0
+    specifiedTargetItem: {fileID: 0}
+    key: InitKabotya
+    type: 0
+    value:
+      boolValue: 0
+      floatValue: 0
+      integerValue: 0
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+--- !u!114 &1207976574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207976567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1207976572}
+  key:
+    target: 2
+    key: ChangeEnemyTo1
+--- !u!1 &1560701139 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1277270587831972300, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+    type: 3}
+  m_PrefabInstance: {fileID: 294970199}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1560701140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560701139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1560701147}
+  key:
+    target: 2
+    key: DestroyEnemy0
+--- !u!114 &1560701147 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1277270587831972299, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+    type: 3}
+  m_PrefabInstance: {fileID: 294970199}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560701139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1640068575
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -923,7 +1682,7 @@ PrefabInstance:
     - target: {fileID: 460060357809868493, guid: 20b0ea6f8897942b6b26aa13188356a2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 460060357809868493, guid: 20b0ea6f8897942b6b26aa13188356a2,
         type: 3}
@@ -983,17 +1742,21 @@ PrefabInstance:
     - target: {fileID: 460060358782358152, guid: 20b0ea6f8897942b6b26aa13188356a2,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 460060358782358156, guid: 20b0ea6f8897942b6b26aa13188356a2,
         type: 3}
       propertyPath: triggers.Array.data[0].value.integerValue
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 460060358782358158, guid: 20b0ea6f8897942b6b26aa13188356a2,
+        type: 3}
+      propertyPath: globalGimmickKey.key.key
+      value: GenelateEnemy1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 460060358782358146, guid: 20b0ea6f8897942b6b26aa13188356a2, type: 3}
     - {fileID: 460060358782358157, guid: 20b0ea6f8897942b6b26aa13188356a2, type: 3}
-    - {fileID: 460060358782358158, guid: 20b0ea6f8897942b6b26aa13188356a2, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 20b0ea6f8897942b6b26aa13188356a2, type: 3}
 --- !u!1 &1640068576 stripped
 GameObject:
@@ -1262,287 +2025,75 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1246417931868170513
+--- !u!1001 &420063236631880828
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3329706663419339247, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
-        type: 3}
-      propertyPath: collisionType
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3692600867421369382, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+    - target: {fileID: 1472003751420676244, guid: f6825df9187afb64698f784afc13132f,
         type: 3}
       propertyPath: m_Name
       value: kabotya
       objectReference: {fileID: 0}
-    - target: {fileID: 4068175706222456476, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+    - target: {fileID: 1472003751420676252, guid: f6825df9187afb64698f784afc13132f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 14
       objectReference: {fileID: 0}
-    - target: {fileID: 4068175706222456476, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+    - target: {fileID: 1472003751420676252, guid: f6825df9187afb64698f784afc13132f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 15
       objectReference: {fileID: 0}
-    - target: {fileID: 4068175706222456476, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+    - target: {fileID: 1472003751420676252, guid: f6825df9187afb64698f784afc13132f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 28
       objectReference: {fileID: 0}
-    - target: {fileID: 4068175706222456476, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+    - target: {fileID: 1472003751420676252, guid: f6825df9187afb64698f784afc13132f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -1.27
       objectReference: {fileID: 0}
-    - target: {fileID: 4068175706222456476, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+    - target: {fileID: 1472003751420676252, guid: f6825df9187afb64698f784afc13132f,
         type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4068175706222456476, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+    - target: {fileID: 1472003751420676252, guid: f6825df9187afb64698f784afc13132f,
         type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4068175706222456476, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+    - target: {fileID: 1472003751420676252, guid: f6825df9187afb64698f784afc13132f,
         type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4068175706222456476, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+    - target: {fileID: 1472003751420676252, guid: f6825df9187afb64698f784afc13132f,
         type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4068175706222456476, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+    - target: {fileID: 1472003751420676252, guid: f6825df9187afb64698f784afc13132f,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4068175706222456476, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+    - target: {fileID: 1472003751420676252, guid: f6825df9187afb64698f784afc13132f,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4068175706222456476, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
+    - target: {fileID: 1472003751420676252, guid: f6825df9187afb64698f784afc13132f,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 1c122ca72eb7aa642b6b2681a93d7b96, type: 3}
---- !u!1 &1246417931868170514 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3692600867421369382, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
-    type: 3}
-  m_PrefabInstance: {fileID: 1246417931868170513}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1246417931868170515 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3568810643350472106, guid: 1c122ca72eb7aa642b6b2681a93d7b96,
-    type: 3}
-  m_PrefabInstance: {fileID: 1246417931868170513}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1246417931868170514}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1246417931868170516
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1246417931868170514}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f90a8458122ef47c3b840e286a75994a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 1246417931868170515}
-  triggers:
-  - target: 0
-    specifiedTargetItem: {fileID: 0}
-    key: hp
-    type: 3
-    value:
-      boolValue: 0
-      floatValue: 0
-      integerValue: 1
-      vector2Value: {x: 0, y: 0}
-      vector3Value: {x: 0, y: 0, z: 0}
---- !u!114 &1246417931868170517
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1246417931868170514}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce2b9f4eb5444df69e31db5c54e12447, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  globalGimmickKey:
-    key:
-      target: 2
-      key: Press
-    item: {fileID: 0}
---- !u!114 &1246417931868170518
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1246417931868170514}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 1246417931868170515}
-  key:
-    target: 0
-    key: die
---- !u!114 &1246417931868170519
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1246417931868170514}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d06d8dc2ce9e442ab2712de694945b2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 1246417931868170515}
-  key:
-    target: 2
-    key: KabottaDamage
-  logic:
-    statements:
-    - singleStatement:
-        targetState:
-          target: 0
-          key: hp
-          parameterType: 3
-        expression:
-          type: 1
-          value:
-            type: 0
-            constant:
-              type: 1
-              boolValue: 0
-              floatValue: 0
-              integerValue: 0
-              vector2Value: {x: 0, y: 0}
-              vector3Value: {x: 0, y: 0, z: 0}
-            sourceState:
-              target: 0
-              key: 
-              type: 6
-          operatorExpression:
-            operator: 4
-            operands:
-            - type: 0
-              value:
-                type: 1
-                constant:
-                  type: 1
-                  boolValue: 0
-                  floatValue: 0
-                  integerValue: 0
-                  vector2Value: {x: 0, y: 0}
-                  vector3Value: {x: 0, y: 0, z: 0}
-                sourceState:
-                  target: 0
-                  key: hp
-                  type: 3
-              operatorExpression:
-                operator: 0
-                operands: []
-            - type: 0
-              value:
-                type: 0
-                constant:
-                  type: 3
-                  boolValue: 0
-                  floatValue: 0
-                  integerValue: 1
-                  vector2Value: {x: 0, y: 0}
-                  vector3Value: {x: 0, y: 0, z: 0}
-                sourceState:
-                  target: 0
-                  key: 1
-                  type: 3
-              operatorExpression:
-                operator: 0
-                operands: []
-    - singleStatement:
-        targetState:
-          target: 0
-          key: die
-          parameterType: 0
-        expression:
-          type: 1
-          value:
-            type: 0
-            constant:
-              type: 1
-              boolValue: 0
-              floatValue: 0
-              integerValue: 0
-              vector2Value: {x: 0, y: 0}
-              vector3Value: {x: 0, y: 0, z: 0}
-            sourceState:
-              target: 0
-              key: 
-              type: 6
-          operatorExpression:
-            operator: 12
-            operands:
-            - type: 0
-              value:
-                type: 1
-                constant:
-                  type: 1
-                  boolValue: 0
-                  floatValue: 0
-                  integerValue: 0
-                  vector2Value: {x: 0, y: 0}
-                  vector3Value: {x: 0, y: 0, z: 0}
-                sourceState:
-                  target: 0
-                  key: hp
-                  type: 3
-              operatorExpression:
-                operator: 0
-                operands: []
-            - type: 0
-              value:
-                type: 0
-                constant:
-                  type: 3
-                  boolValue: 0
-                  floatValue: 0
-                  integerValue: 0
-                  vector2Value: {x: 0, y: 0}
-                  vector3Value: {x: 0, y: 0, z: 0}
-                sourceState:
-                  target: 0
-                  key: 0
-                  type: 3
-              operatorExpression:
-                operator: 0
-                operands: []
+  m_SourcePrefab: {fileID: 100100000, guid: f6825df9187afb64698f784afc13132f, type: 3}
 --- !u!1001 &7665282753039749654
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1553,7 +2104,7 @@ PrefabInstance:
     - target: {fileID: 8261853161977078721, guid: 2876d34981639ef48bcdc71918dccfd5,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8261853161977078721, guid: 2876d34981639ef48bcdc71918dccfd5,
         type: 3}
@@ -1608,7 +2159,7 @@ PrefabInstance:
     - target: {fileID: 8261853161977078748, guid: 2876d34981639ef48bcdc71918dccfd5,
         type: 3}
       propertyPath: triggers.Array.size
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8261853161977078748, guid: 2876d34981639ef48bcdc71918dccfd5,
         type: 3}

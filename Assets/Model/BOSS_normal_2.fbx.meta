@@ -1,0 +1,195 @@
+fileFormatVersion: 2
+guid: feaba15e8a41c4e2d9e8588f65b585f8
+ModelImporter:
+  serializedVersion: 21202
+  internalIDToNameTable:
+  - first:
+      74: 8108620800054693096
+    second: Light|CameraAction.001
+  - first:
+      74: -3889297921647894883
+    second: Light|CylinderAction.001
+  - first:
+      74: -5554482905099465427
+    second: Light|LightAction.001
+  - first:
+      74: 824208800591231992
+    second: "Light|\u30B3\u30FC\u30C8Action.001"
+  - first:
+      74: -6730117062666105978
+    second: "Light|\u53F3\u624BAction"
+  - first:
+      74: -374500477143760240
+    second: "Light|\u5DE6\u624BAction"
+  - first:
+      74: -3168146227025554248
+    second: "Light|\u80F4\u4F53Action"
+  - first:
+      74: 2916370443565958669
+    second: "Light|\u8D64\u76EEAction"
+  - first:
+      74: 5174209034679556759
+    second: "Light|\u982DAction"
+  - first:
+      74: 864024741681691665
+    second: "Light|\u9ED2\u76EEAction"
+  - first:
+      74: 8967749517121878288
+    second: Camera|CameraAction.001
+  - first:
+      74: 6119809738004415748
+    second: Camera|CylinderAction.001
+  - first:
+      74: 1138446235535262681
+    second: Camera|LightAction.001
+  - first:
+      74: 7228826257150071246
+    second: "Camera|\u30B3\u30FC\u30C8Action.001"
+  - first:
+      74: 5823450344831952418
+    second: "Camera|\u53F3\u624BAction"
+  - first:
+      74: 1766783948725302852
+    second: "Camera|\u5DE6\u624BAction"
+  - first:
+      74: 7834146900485143585
+    second: "Camera|\u80F4\u4F53Action"
+  - first:
+      74: -713448931641180897
+    second: "Camera|\u8D64\u76EEAction"
+  - first:
+      74: 2256749372765356101
+    second: "Camera|\u982DAction"
+  - first:
+      74: -3782012874738078070
+    second: "Camera|\u9ED2\u76EEAction"
+  - first:
+      74: -8020146138762327453
+    second: BOSS|CameraAction.001
+  - first:
+      74: -3614846907949132823
+    second: BOSS|CylinderAction.001
+  - first:
+      74: -1261952812579831304
+    second: BOSS|LightAction.001
+  - first:
+      74: 6781700854898788760
+    second: "BOSS|\u30B3\u30FC\u30C8Action.001"
+  - first:
+      74: -3950256614546183216
+    second: "BOSS|\u53F3\u624BAction"
+  - first:
+      74: 5433648407162893615
+    second: "BOSS|\u5DE6\u624BAction"
+  - first:
+      74: -128788135473376475
+    second: "BOSS|\u80F4\u4F53Action"
+  - first:
+      74: 1625873111158018195
+    second: "BOSS|\u8D64\u76EEAction"
+  - first:
+      74: 6952626786630145727
+    second: "BOSS|\u982DAction"
+  - first:
+      74: -9082340233354382716
+    second: "BOSS|\u9ED2\u76EEAction"
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -651,7 +651,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 944837700276377736, guid: e04a0271820ce489d86d3db0d82837d2,
     type: 3}
   itemTemplateId:
-    value: 14566700712320026382
+    value: 1464411751912292819
   spawnPoint: {fileID: 199013369014988659, guid: 884310161f328944998ba0e93fd332a1,
     type: 3}
 --- !u!114 &-274394929642072726
@@ -670,7 +670,7 @@ MonoBehaviour:
   key:
     target: 0
     key: cre
-  delayTimeSeconds: 1
+  delayTimeSeconds: 0.1
   triggers:
   - target: 0
     specifiedTargetItem: {fileID: 0}

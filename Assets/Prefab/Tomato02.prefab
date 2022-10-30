@@ -720,7 +720,7 @@ MonoBehaviour:
   key:
     target: 0
     key: WaitAndDestroy
-  delayTimeSeconds: 0.5
+  delayTimeSeconds: 0.1
   triggers:
   - target: 0
     specifiedTargetItem: {fileID: 0}

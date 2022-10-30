@@ -205,6 +205,7 @@ GameObject:
   - component: {fileID: 5301741688501390175}
   - component: {fileID: -274394929642072726}
   - component: {fileID: -3846125943614830612}
+  - component: {fileID: -4404718851726835523}
   m_Layer: 0
   m_Name: BOSS_attack 1
   m_TagString: Untagged
@@ -368,6 +369,63 @@ MonoBehaviour:
         targetState:
           target: 0
           key: die
+          parameterType: 0
+        expression:
+          type: 1
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 0
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 0
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 12
+            operands:
+            - type: 0
+              value:
+                type: 1
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 0
+                  key: hp
+                  type: 3
+              operatorExpression:
+                operator: 0
+                operands: []
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 3
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 0
+                  key: 0
+                  type: 3
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 0
+          key: resetGage
           parameterType: 0
         expression:
           type: 1
@@ -594,7 +652,8 @@ MonoBehaviour:
     type: 3}
   itemTemplateId:
     value: 14566700712320026382
-  spawnPoint: {fileID: 4397531194783623715}
+  spawnPoint: {fileID: 199013369014988659, guid: 884310161f328944998ba0e93fd332a1,
+    type: 3}
 --- !u!114 &-274394929642072726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -639,6 +698,82 @@ MonoBehaviour:
   key:
     target: 0
     key: des
+--- !u!114 &-4404718851726835523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4397531194783623716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e67bdc2960f9462385a7fba1c0052836, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  globalGimmickKey:
+    key:
+      target: 2
+      key: resetGage
+    item: {fileID: 0}
+  logic:
+    statements:
+    - singleStatement:
+        targetState:
+          target: 2
+          key: ResetKabotyaNum
+          parameterType: 0
+        expression:
+          type: 1
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 0
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 7
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
 --- !u!1 &4397531194881611012
 GameObject:
   m_ObjectHideFlags: 0

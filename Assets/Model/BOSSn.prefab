@@ -4984,7 +4984,7 @@ MonoBehaviour:
   key:
     target: 0
     key: cre
-  delayTimeSeconds: 5
+  delayTimeSeconds: 30
   triggers:
   - target: 0
     specifiedTargetItem: {fileID: 0}

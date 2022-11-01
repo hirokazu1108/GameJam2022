@@ -206,6 +206,10 @@ GameObject:
   - component: {fileID: -274394929642072726}
   - component: {fileID: -3846125943614830612}
   - component: {fileID: -4404718851726835523}
+  - component: {fileID: 5159600995705918277}
+  - component: {fileID: 821133100891672196}
+  - component: {fileID: 265080049658236907}
+  - component: {fileID: -3473171824614124533}
   m_Layer: 0
   m_Name: BOSS_attack 1
   m_TagString: Untagged
@@ -516,7 +520,7 @@ MonoBehaviour:
     value:
       boolValue: 0
       floatValue: 0
-      integerValue: 40
+      integerValue: 5
       vector2Value: {x: 0, y: 0}
       vector3Value: {x: 0, y: 0, z: 0}
   - target: 0
@@ -544,7 +548,7 @@ MonoBehaviour:
   item: {fileID: 4397531194783623727}
   key:
     target: 0
-    key: die
+    key: died
 --- !u!114 &4397531194783623714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -620,7 +624,7 @@ MonoBehaviour:
   key:
     target: 0
     key: create
-  delayTimeSeconds: 5
+  delayTimeSeconds: 30
   triggers:
   - target: 0
     specifiedTargetItem: {fileID: 0}
@@ -774,6 +778,104 @@ MonoBehaviour:
               operatorExpression:
                 operator: 0
                 operands: []
+--- !u!114 &5159600995705918277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4397531194783623716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5a9785e42671427a8761e148889f041, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 4397531194783623727}
+  key:
+    target: 0
+    key: des
+  delayTimeSeconds: 1
+  triggers:
+  - target: 0
+    specifiedTargetItem: {fileID: 0}
+    key: dest
+    type: 0
+    value:
+      boolValue: 0
+      floatValue: 0
+      integerValue: 0
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+--- !u!114 &821133100891672196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4397531194783623716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 4397531194783623727}
+  key:
+    target: 0
+    key: die
+  itemTemplate: {fileID: 4509701535748358671, guid: fd249a9be94f947b38da8477cde8df33,
+    type: 3}
+  itemTemplateId:
+    value: 3062319440460406315
+  spawnPoint: {fileID: 4397531194783623715}
+--- !u!114 &265080049658236907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4397531194783623716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 4397531194783623727}
+  key:
+    target: 0
+    key: die
+  itemTemplate: {fileID: 4509701535748358671, guid: 9b1c7b57a644e409fb074ca10d5ab1e9,
+    type: 3}
+  itemTemplateId:
+    value: 3566708378321035414
+  spawnPoint: {fileID: 4397531194783623715}
+--- !u!114 &-3473171824614124533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4397531194783623716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5a9785e42671427a8761e148889f041, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 4397531194783623727}
+  key:
+    target: 0
+    key: die
+  delayTimeSeconds: 0.5
+  triggers:
+  - target: 0
+    specifiedTargetItem: {fileID: 0}
+    key: died
+    type: 0
+    value:
+      boolValue: 0
+      floatValue: 0
+      integerValue: 0
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
 --- !u!1 &4397531194881611012
 GameObject:
   m_ObjectHideFlags: 0
@@ -5996,9 +6098,6 @@ GameObject:
   - component: {fileID: 4397531196005214387}
   - component: {fileID: 4397531196005214388}
   - component: {fileID: 4397531196005214389}
-  - component: {fileID: 4397531196005214390}
-  - component: {fileID: 4397531196005214391}
-  - component: {fileID: 4397531196005214376}
   m_Layer: 0
   m_Name: "\u30B3\u30FC\u30C8"
   m_TagString: Untagged
@@ -6085,64 +6184,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 5135433108729259056, guid: f0277aca9e1543e4ea570b7d83b04564, type: 3}
---- !u!114 &4397531196005214390
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4397531196005214378}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id:
-    value: 0
-  itemName: 
-  size: {x: 0, y: 0, z: 0}
---- !u!114 &4397531196005214391
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4397531196005214378}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 4397531196005214390}
-  key:
-    target: 0
-    key: des
---- !u!114 &4397531196005214376
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4397531196005214378}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba507dbcf46b94a9895daa4d46e12805, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 4397531196005214390}
-  collisionEventType: 0
-  collisionType: -1
-  triggers:
-  - target: 0
-    specifiedTargetItem: {fileID: 0}
-    key: des
-    type: 0
-    value:
-      boolValue: 0
-      floatValue: 0
-      integerValue: 0
-      vector2Value: {x: 0, y: 0}
-      vector3Value: {x: 0, y: 0, z: 0}
 --- !u!1 &4397531196466200446
 GameObject:
   m_ObjectHideFlags: 0
